@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Sortable Table with Multi-Tag Filtering</h1>
+  <div id="tag-buttons">
+    <button class="tag-button all-button active" data-tag="all">All</button>
+    <button class="tag-button" data-tag="tag1">Tag 1</button>
+    <button class="tag-button" data-tag="tag2">Tag 2</button>
+    <button class="tag-button" data-tag="tag3">Tag 3</button>
+  </div>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Name</th>
+        <th onclick="sortTable(1)">Category</th>
+        <th>Tags</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-tags="tag1,tag2">
+        <td>Item 1</td>
+        <td>Category A</td>
+        <td>tag1, tag2</td>
+      </tr>
+      <tr data-tags="tag2,tag3">
+        <td>Item 2</td>
+        <td>Category B</td>
+        <td>tag2, tag3</td>
+      </tr>
+      <tr data-tags="tag1,tag3">
+        <td>Item 3</td>
+        <td>Category C</td>
+        <td>tag1, tag3</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
