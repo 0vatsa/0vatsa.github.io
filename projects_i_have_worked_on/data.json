@@ -1,7 +1,8 @@
 {
   "items": [
-    { "name": "Item 1", "category": "Category A", "tags": ["tag1", "tag2"] },
-    { "name": "Item 2", "category": "Category B", "tags": ["tag2", "tag3"] },
-    { "name": "Item 3", "category": "Category C", "tags": ["tag1", "tag3"] }
+    { "name": "Item 1", "category": "Category A", "tags": ["Finance", "Compsci"] },
+    { "name": "Item 2", "category": "Category B", "tags": ["Compsci"] },
+    { "name": "Item 3", "category": "Category C", "tags": ["Compsci"] },
+    { "name": "Item 4", "category": "Category D", "tags": ["Finance"] },
   ]
 }
