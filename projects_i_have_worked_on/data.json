@@ -3,6 +3,6 @@
     { "name": "Item 1", "category": "Category A", "tags": ["Finance", "Compsci"] },
     { "name": "Item 2", "category": "Category B", "tags": ["Compsci"] },
     { "name": "Item 3", "category": "Category C", "tags": ["Compsci"] },
-    { "name": "Item 4", "category": "Category D", "tags": ["Finance"] },
+    { "name": "Item 4", "category": "Category D", "tags": ["Finance"] }
   ]
 }
