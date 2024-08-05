@@ -45,18 +45,3 @@ tr:hover {
 .all-button {
   font-weight: bold;
 }
-
-.tag {
-  display: inline-block;
-  padding: 3px 8px;
-  border-radius: 4px;
-  color: white;
-  margin: 2px;
-  font-size: 14px;
-}
-
-.tag-Finance { background-color: #4CAF50; } /* Example color for tag1 */
-.tag-Compsci { background-color: #2196F3; } /* Example color for tag2 */
-.tag-Datasets { background-color: #FF5722; } /* Example color for tag3 */
-
-/* Add more tag color styles as needed */

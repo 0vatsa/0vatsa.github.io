@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       row.innerHTML = `
         <td>${item.name}</td>
         <td>${item.category}</td>
-        <td>${item.tags.map(tag => `<span class="tag tag-${tag}">${tag}</span>`).join(' ')}</td>
+        <td>${item.tags.join(', ')}</td>
       `;
       tableBody.appendChild(row);
     });
