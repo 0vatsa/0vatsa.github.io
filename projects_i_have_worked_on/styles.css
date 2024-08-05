@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
 table {
@@ -39,4 +40,8 @@ tr:hover {
   background-color: #007bff;
   color: white;
   border-color: #007bff;
+}
+
+.all-button {
+  font-weight: bold;
 }
