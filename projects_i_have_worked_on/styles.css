@@ -55,8 +55,8 @@ tr:hover {
   font-size: 14px;
 }
 
-.tag-tag1 { background-color: #4CAF50; } /* Example color for tag1 */
-.tag-tag2 { background-color: #2196F3; } /* Example color for tag2 */
-.tag-tag3 { background-color: #FF5722; } /* Example color for tag3 */
+.tag-Finance { background-color: #4CAF50; } /* Example color for tag1 */
+.tag-Compsci { background-color: #2196F3; } /* Example color for tag2 */
+.tag-Datasets { background-color: #FF5722; } /* Example color for tag3 */
 
 /* Add more tag color styles as needed */
