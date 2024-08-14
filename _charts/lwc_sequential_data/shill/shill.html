@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+	  .custom-image {
+		width: 750px;
+		height: 420px;
+		border: 2px solid black;
+	  }
+	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shill on Lightweight Charts</title>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/0vatsa/cdn@main/lightweight_charts_for_sequential_data/lightweight-charts.standalone.development.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/0vatsa/cdn@latest/lightweight_charts_for_sequential_data/lightweight-charts.standalone.development.js"></script>
+</head>
+<body>
+	<H2> </H2>
+	<div style="font-size: 20px;"> 
+		So you just ran a PCA on something, you plot a graph and get this: 
+		<br>
+		<br>
+		<img src="./assets/pca.png" class="custom-image"> 
+		<br>
+		<br>
+		Which isn't too bad, it's alright, but let's say there is an anomaly at some point, and you want inspect the point and its neighbors, <br>
+		compared to the Lightweight charts below and the standard matplotlib graph, which would you rather use:
+		<br>
+		<br>
+		<div id="chart"></div>
+	
+	
+	
+	</div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
